@@ -1,0 +1,56 @@
+.two-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.right-home img {
+  width:750px;
+}
+.search{
+    position: relative;
+}
+.titile{
+    font-size:45px;
+    line-height: 55px;
+    margin-bottom: 35px;
+}
+.detail{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 550px;
+    margin-bottom: 35px;
+}
+.titile span{
+    color: #6415FF;
+}
+.search input{
+    padding: 20px 16px;
+    border: none;
+    width: 100%;
+   border: 2px solid #e2e8f0;
+    font-size: 100%;
+    color: #e2e8f0;
+}
+.search button{
+    position:absolute;
+    top: 8px;
+    right: 15px;
+    padding: 15px 35px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    background-color: #6415FF;
+    color: white;
+ font-weight: 600;
+ cursor: pointer;
+}
+.last-title{
+    margin-top: 80px;
+    font-size: 11px;
+    color: gray;
+}
+.last-title .last-img img{
+    width: 400px;
+    opacity: 0.5;
+    margin-top: 25px;
+}

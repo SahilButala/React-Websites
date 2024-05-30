@@ -1,0 +1,54 @@
+.banner-section{
+    min-height: 30vh;
+    width: 100%;
+    background-color: #6415FF;
+    padding: 30px 0;
+    display: flex;
+ justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.banner-section h3{
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+}
+.cricle{
+        height: 180px;
+        width: 180px;
+        background-color: #5A13E5;
+        border-radius: 50%;
+        position: absolute;
+        left:-25px;
+        bottom: -60px;
+        z-index: -1;
+}
+.cricle:nth-child(2){
+   left: 1100px;
+   top: -90px;
+}
+.right-content{
+    display: flex;
+    gap: 25px;
+    button{
+        padding: 15px;
+        width: 150px;
+        border-radius: 35px;
+        border: none;
+        font-size: 15px;
+        text-transform: capitalize;
+        cursor: pointer;
+        background-color: #F56565;
+        color: white;
+        font-weight: 600;
+    }
+    button:nth-child(2){
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+    }
+
+}
